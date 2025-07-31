@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Venta de frutas, verduras y condimentos frescos. Comprá online en Verduras y Frutas MyM.">
+  <meta name="keywords" content="verduras, frutas, condimentos, mercado, saludable, ecommerce">
+  <meta name="author" content="Matías Baez Armoa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Frontend</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Verduras y Frutas MyM</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#reseñas">Reseñas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>¡Bienvenido a tu verdulería online de confianza!</h2>
+      <p>En nuestra tienda vas a encontrar frutas y verduras frescas, seleccionadas cada día para que lleguen a tu casa con la mejor calidad. Hacemos más fácil y saludable tu día a día: elegís, comprás y recibís todo sin moverte de tu casa.
+        🌱 Frescura directa del productor a tu mesa.
+        🛒 Comprá fácil, rápido y seguro..</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/watch?v=wzGRs-C8kqs" title="Video de ejemplo" allowfullscreen></iframe>
+    </section>
+
+    <section id="productos" class="productos">
+      <h2>Productos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/manzana.jpg" alt="Producto 1">
+          <p>Frutas</p>
+        </div>
+        <div class="card">
+          <img src="img/verdura.jpeg" alt="Producto 2">
+          <p>Verduras</p>
+        </div>
+        <div class="card">
+          <img src="img/images.jpeg" alt="Producto 3">
+          <p>Condimentos</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="reseñas" class="reseñas">
+      <h2>Reseñas</h2>
+      <div class="grid-reseñas">
+        <div class="item">"Muy buen producto" - Lucia</div>
+        <div class="item">"Lo recomiendo" - Carlos</div>
+        <div class="item">"Excelente atención" - Raul</div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/mdkgqykn" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <textarea name="mensaje" placeholder="Escribe tu mensaje aquí" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Verduras y Frutas MyM</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
